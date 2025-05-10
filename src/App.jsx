@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <Navbar/>
-      <Routes>
+      <Routes >
       <Route path="/:username/:id" element={<VideoPlayer />} />
       <Route path="/terms" element={<Terms/>} />
       <Route path="/privacy" element={<Privacy/>} />
